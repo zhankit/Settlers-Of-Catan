@@ -28,8 +28,8 @@ Connection for X11 is require for graphics
 • help: prints out the list of commands
 
 ## Command-line interface
-• -seed xxx sets the random number generator’s seed to xxx. 
-• -load xxx loads the game saved in file xxx. 
+• -seed xxx sets the random number generator’s seed to xxx. <br />
+• -load xxx loads the game saved in file xxx. <br />
 • -board xxx loads the game with the board specified in the file xxx instead of using random
-generation. 
-• -graphics uses the -x11 feature to compile and display a simple graphic for this game
+generation. <br />
+• -graphics uses the -x11 feature to compile and display a simple graphic for this game<br />
