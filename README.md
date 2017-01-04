@@ -22,8 +22,14 @@ Connection for X11 is require for graphics
 • achieve `<goal\#>`: attempts to achieve the goal at `<goal\#>`<br />
 • complete `<criterion\#>`: attempts to complete the criterion at `<criterion\#>`<br />
 • improve `<criterion\#>`: attempts to improve the criterion at `<criterion\#>`<br />
-• trade `<colour> <give> <take>`: attempts to trade with student `<colour>` giving one resource of type `<give>` and receiving one resource of type <take><br />
+• trade `<colour> <give> <take>`: attempts to trade with student `<colour>` giving one resource of type `<give>` and receiving one resource of type `<take>`<br />
 • next: passes control onto the next student in the game.<br />
 • save `<file>`: saves the current game state to `<file>`<br />
-• help: prints out the list of commands <br />
+• help: prints out the list of commands
 
+## Command-line interface
+• -seed xxx sets the random number generator’s seed to xxx. 
+• -load xxx loads the game saved in file xxx. 
+• -board xxx loads the game with the board specified in the file xxx instead of using random
+generation. 
+• -graphics uses the -x11 feature to compile and display a simple graphic for this game
